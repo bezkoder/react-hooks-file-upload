@@ -17,7 +17,9 @@ const getFiles = () => {
   return http.get("/files");
 };
 
-export default {
+const FileUploadService = {
   upload,
   getFiles,
 };
+
+export default FileUploadService;
